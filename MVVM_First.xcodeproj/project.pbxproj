@@ -16,6 +16,7 @@
 		992512B824F6B77A00BEEBC2 /* MVVM_FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992512B724F6B77A00BEEBC2 /* MVVM_FirstTests.swift */; };
 		992512C324F6B77A00BEEBC2 /* MVVM_FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992512C224F6B77A00BEEBC2 /* MVVM_FirstUITests.swift */; };
 		992512D124F6E9BA00BEEBC2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992512D024F6E9BA00BEEBC2 /* Profile.swift */; };
+		992512D324F6ED9E00BEEBC2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992512D224F6ED9E00BEEBC2 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		992512C224F6B77A00BEEBC2 /* MVVM_FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_FirstUITests.swift; sourceTree = "<group>"; };
 		992512C424F6B77A00BEEBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		992512D024F6E9BA00BEEBC2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		992512D224F6ED9E00BEEBC2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				9925129E24F6B77500BEEBC2 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		9925129E24F6B77500BEEBC2 /* Products */ = {
 			isa = PBXGroup;
@@ -105,6 +108,7 @@
 				992512D024F6E9BA00BEEBC2 /* Profile.swift */,
 				992512A224F6B77500BEEBC2 /* SceneDelegate.swift */,
 				992512A424F6B77500BEEBC2 /* ViewController.swift */,
+				992512D224F6ED9E00BEEBC2 /* ViewModel.swift */,
 				992512A624F6B77500BEEBC2 /* Main.storyboard */,
 				992512A924F6B77A00BEEBC2 /* Assets.xcassets */,
 				992512AB24F6B77A00BEEBC2 /* LaunchScreen.storyboard */,
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992512D324F6ED9E00BEEBC2 /* ViewModel.swift in Sources */,
 				992512A524F6B77500BEEBC2 /* ViewController.swift in Sources */,
 				992512D124F6E9BA00BEEBC2 /* Profile.swift in Sources */,
 				992512A124F6B77500BEEBC2 /* AppDelegate.swift in Sources */,
